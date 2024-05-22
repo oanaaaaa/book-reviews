@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Mono", monospace;
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+figure img{
+    width: 250px;
+}
+
+nav .menu-principal {
+    display: flex;
+    justify-content: center;
+}
+
+nav .menu-principal li{
+    margin: 0px 10px;
+    list-style-type: none;
+}
+
+nav .menu-principal li a {
+    text-decoration: none;
+}
+
+section .background-img {
+    width: 100%;
+    overflow:hidden;
+}
+
+section .background-img img {
+    width: 100%
+}
+
+.hero {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-info {
+    position: absolute;
+    top:25%;
+    color: pink;
+    text-align: center;
+    font-style: oblique; 
+}
+
+button {
+    padding: 10px 50px;
+    margin: 10px 20px;
+    background: #cc0b4e;
+    color:rgb(2, 1, 56);  
+    text-align:center;
+}
+
+button:hover {
+    background: lightcoral;
+}
+
+.noticias {
+    text-align: center;
+}
+
+.noticias h3, p {
+    color: magenta; 
+}
+
+.noticias p {
+    margin: 20px 100px;
+    text-align: justify;
+}
+
+article {
+    margin: 50px 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+img-noticias {
+    display: flex; 
+
+}
+
+.info-post h2 {
+    font-size: 1.5em;
+    text-align: left;
+    padding-left:40px;
+}
+
+.meta-tags-post {
+    display: flex; 
+    flex-direction: row;
+}
+
+.mega-tags-post li {
+    list-style-type: none;
+}
+
+.mega-tags-post li::after {
+    content: "/";
+    color:gray; 
+    font-weight: bold;
+}
+
+.mega-tags-post li::nth-child(4)::after {
+    content: "";
+}
+
+footer {
+    width: 100%;
+    background: #1111;
+    color:#cc0b4e; 
+    text-align: center;
+}
+
+.footer-form {
+    width: 80%;
+    margin-left: 5%;
+}
+
+.footer-form form {
+    width:40%;
+    margin-left:10%;
+    display:flex;
+    flex-direction:column;
+}
+
+.footer-form input {
+    padding: 5px 10px;
+    margin: 5px 0px;
+    background: #101010;
+    border: none;
+}  
+
+.footer-social {
+    display: inline-block;
+    width: 40%;
+    padding: 0px 0px 0px 25px;
+}
+
+.footer-social a {
+    text-decoration: none;
+}
+
+.footer-social i {
+    font-size: 3em;
+    padding: 5px;
+    color: lightslategray; 
+}
